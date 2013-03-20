@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">Fundraiser Counter</string>
+    <string name="hello">Sales Items</string>
+    <string name="SalesItems_sales">Sales Items</string>
+    <string name="plus_sign">+</string>
+    <string name="_greaterthan"> ></string>
+    <string name="_arrows">>>></string>
+    <string name="SalesItems">Items for</string>
+    <string name="save">save</string>
+    <string name="exit">exit</string>
+    <string name="add_a_person">Add a Person</string>
+    <string name="saveSalesItemslist">saveSalesItemsList</string>
+    <string name="exitSalesItemsList">exitSalesItemsList</string>
+    <string name="update_SalesItems_list">Update Sales Items</string>
+    <string name="contact_list">Contact List</string>
+    <string name="asterisc">*</string>
+    <string name="equal_dollarsign">= $</string>
+    <string name="minus_sign">-</string>
+
+</resources>

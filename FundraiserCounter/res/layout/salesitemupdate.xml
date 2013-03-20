@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/llxyz"
+    android:background="#191970">
+    
+     <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/SalesItemUpdateRelativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="50sp"
+    	android:background="#FFD700"
+        android:orientation="horizontal" >
+
+	    <TextView
+	        android:id="@+id/salesitemfortextview"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_centerVertical="true"
+       		android:layout_marginLeft="5sp"
+	        android:textSize="25sp"
+	        android:textColor="#191970"/>
+
+        <Button
+            android:id="@+id/salesitemUpdateEmailButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="4sp"
+            android:layout_marginTop="4sp"
+        	android:background="@drawable/emailicon50x58"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollViewxyz"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.52" >
+
+	        <LinearLayout
+	            android:id="@+id/mylayoutxxyz"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical" />
+        
+        
+    </ScrollView>
+
+</LinearLayout>
